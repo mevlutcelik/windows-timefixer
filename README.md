@@ -79,7 +79,7 @@ Aşağıdaki adımları takip ederek script’leri kendi bilgisayarınızda çal
 
 ```bash
 git clone https://github.com/mevlutcelik/windows-timefixer.git
-cd folder-timestamp-changer
+cd windows-timefixer
 ```
 
 ### 2. PowerShell Ayarları
