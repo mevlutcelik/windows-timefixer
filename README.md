@@ -78,11 +78,9 @@ Aşağıdaki adımları takip ederek script’leri kendi bilgisayarınızda çal
 ### 1. Depoyu Klonlamak
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/folder-timestamp-changer.git
+git clone https://github.com/mevlutcelik/windows-timefixer.git
 cd folder-timestamp-changer
 ```
-
-> **Not:** `KULLANICI_ADINIZ` yerine kendi GitHub kullanıcı adınızı ve repo adınızı yazın.
 
 ### 2. PowerShell Ayarları
 
@@ -156,7 +154,7 @@ Bu ayar yalnızca açık oturum boyunca geçerli olur ve bilgisayarınızın gen
 - Klasör: `C:\Users\mevlutcelik\Desktop\deneme_klasoru`  
 
 ```powershell
-PS C:\Users\mevlutcelik\Desktop\folder-timestamp-changer> .\random_date.ps1
+PS C:\Users\mevlutcelik\Desktop\windows-timefixer> .\random_date.ps1
 Enter PATH: C:\Users\mevlutcelik\Desktop\deneme_klasoru
 Tüm klasör ve dosyalar için rastgele tarih atamaları tamamlandı.
 ```
@@ -173,7 +171,7 @@ Script, örneğin şu şekilde rastgele değerler atayabilir:
 - Yeni Tarih: `05.05.2025 14:30:00`  
 
 ```powershell
-PS C:\Users\mevlutcelik\Desktop\folder-timestamp-changer> .\change_date.ps1
+PS C:\Users\mevlutcelik\Desktop\windows-timefixer> .\change_date.ps1
 Enter PATH: C:\Users\mevlutcelik\Desktop\deneme_klasoru
 Enter the new date (example: 01.01.2024 10:00:00): 05.05.2025 14:30:00
 The folder and all contained files have been successfully updated.
@@ -186,6 +184,11 @@ Bu çalıştırma sonunda:
 şeklinde güncellenir.
 
 ---
+
+## Tek Satırda Kullanım Örneği
+```powershell
+cd "C:\Users\mevlutcelik\Desktop\windows-timefixer"; Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; .\random_date.ps1
+```
 
 ## Dikkat Edilmesi Gerekenler
 
