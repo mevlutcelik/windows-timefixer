@@ -20,7 +20,8 @@ Bu depo, Windows PowerShell kullanarak bir klasörün ve içerisindeki tüm alt 
   - [2. PowerShell Ayarları](#2-powershell-ayarları)  
   - [3. `random_date.ps1` Kullanımı](#3-random_dateps1-kullanımı)  
   - [4. `change_date.ps1` Kullanımı](#4-change_dateps1-kullanımı)  
-- [Örnek Kullanım](#örnek-kullanım)  
+- [Örnek Kullanım](#örnek-kullanım)
+- [Tek Satırda Kullanım Örneği](#tek-satırda-kullanım-örneği)
 - [Dikkat Edilmesi Gerekenler](#dikkat-edilmesi-gerekenler)  
 - [Lisans](#lisans)
 
@@ -186,9 +187,12 @@ Bu çalıştırma sonunda:
 ---
 
 ## Tek Satırda Kullanım Örneği
+
 ```powershell
 cd "C:\Users\mevlutcelik\Desktop\windows-timefixer"; Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; .\random_date.ps1
 ```
+
+---
 
 ## Dikkat Edilmesi Gerekenler
 
